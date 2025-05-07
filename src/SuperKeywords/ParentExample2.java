@@ -13,6 +13,7 @@ class ChildInvokeMethodExample2 extends ParentExample2 {
 
     void display() {
         super.show();  // Call parent class method
+        this.show(); // call the current class method
     }
 
     public static void main(String[] args) {

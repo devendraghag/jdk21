@@ -8,7 +8,7 @@ class ParentExample3 {
 
 class ChildConstructorExample3 extends ParentExample3 {
     ChildConstructorExample3() {
-        super();  // Must be the first statement
+        super();  // Must be the first statement Control goes to parant class
         System.out.println("Child constructor called");
     }
 
