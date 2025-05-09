@@ -15,6 +15,9 @@ class Dog1 extends Animal1 {
     public void sound() {
         System.out.println("Bark");
     }
+//    public void sleep(){
+//        System.out.println("Sleep method from Dog1...");
+//    }                  we can override method
 }
 
 class Cat1 extends Animal1 {
